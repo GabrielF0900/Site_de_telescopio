@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/logo.webp" type="image/x-icon">
+    <title>Finalizar Compra</title>
+    <link rel="stylesheet" href="./style-checkout.css">
+</head>
+
+<body>
+    <div class="container-principal">
+        <div class="produto-detalhe">
+            <div class="container-img">
+                <img src="./img/telescop.png" alt="">
+            </div>
+        </div>
+
+        <div class="ckeckout">
+            <div class="container-principal-form-card">
+                <div class="card">
+                    <div class="img-card-logo">
+                        <img src="./img/logo-card.png" alt="">
+                    </div>
+                    <div class="texto-exemplo">
+                        <span id="spn_nome">Nome de Exemplo</span>
+                        <span id="spn_numero">0000-0000-0000-000</span>
+                        <span id="spn_data">**/**/****</span>
+                        <span id="spn_codigo-segura">123</span>
+                    </div>
+                </div>
+                <form id="form-dados">
+                    <label>Nome do cartao</label>
+                    <input type="text" id="nome-usuario">
+                    <label>Numero de cartao</label>
+                    <input type="text" id="numero-cartao">
+                    <label>Data de vencimento do Cartao</label>
+                    <input type="date" name="" id="date-card">
+                    <input type="text" id="codigo">
+
+                    <button id="btn_comprar">Finalizar Compra</button>
+                </form>
+            </div>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+
+</html>

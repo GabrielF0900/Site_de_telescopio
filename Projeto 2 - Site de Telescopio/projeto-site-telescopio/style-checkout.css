@@ -1,0 +1,79 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+}
+.container-principal{
+    display: flex;
+    width: 100%;
+}
+.produto-detalhe{
+    background-color: #D6E1E8;
+    width: 50%;
+    height: 100vh;
+}
+.produto-detalhe img{
+    width: 70%;
+}
+.container-img{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+/* estilo do container de checkout*/
+.ckeckout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.container-principal-form-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    width: 400px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 90px;
+
+}
+.card .img-card-logo img{
+    width: 60px;
+    height: 30px;
+}
+
+.card span{
+    color: aliceblue;
+}
+.container-principal-form-card form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.texto-exemplo{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
